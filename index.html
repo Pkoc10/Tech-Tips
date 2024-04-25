@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        @font-face {
+         font-family: customfont;
+         src:url("myfont.otf");
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+            font-family: Verdana;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+        }
+    </style>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>Tech Tips.com</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="favicon-16x16.png">
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <h2>Dear users: </h2>
+            <p>Choosing TechTips.com over Google or ChatGPT offers a tailored advantage. Our platform ensures unparalleled organization, streamlining your search for tech solutions. Dive deeper into insights with TechTips.com, where our very own AI Chatbots are your ultimate guide. Elevate your tech knowledge with us!(No Copyrights intended)<br><br><br><br> <h3>- Pratham Kapoor</h3></p>
+            
+          </div>
+          
+          
+          <span style="font-size:20px;cursor:pointer" onclick="openNav()"> ✏️ Developer's Note</span>
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+          </script>
+        
+        <h1>Tech Tips.com</h1>
+        <div>
+            <a href="apple.html">
+            <img id="apple" src="apple.png" alt="Apple">
+            </a>
+            <a href="android.html">
+            <img id="android" src="android.png" alt="Android">
+            </a>
+        </div>
+        <br><br>
+        <div>
+            <a href="microsoft.html">
+            <img id="microsoft" src="microsoft.png" alt="Microsoft"></a>
+            <a href="meta.html">
+            <img id="meta" src="meta.png" alt="Meta"></a>
+        </div>
+        <br><br>
+        <div>
+            <a href="ps.html">
+            <img id="playstation" src="playstation.png" alt="Playstation"></a>
+            <a href="nintendo.html">
+            <img id="nintendo" src="nintendo.png" alt="Nintendo"></a>
+            <br><br><br>
+    </body>
+</html>

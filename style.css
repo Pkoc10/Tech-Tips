@@ -1,0 +1,144 @@
+
+body{
+    text-align: center;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #d7d7f0 20px ), repeating-linear-gradient( #444df769, #c521d19c );
+
+   
+}
+p{
+    color:rgb(203, 191, 237);
+    font-family: Verdana;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+}
+h2, h3{
+    color:rgb(203, 191, 237);
+    font-family: customfont;
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+.pkoc{
+    color:rgb(203, 191, 237);
+    font-family: Verdana;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+}
+
+span{
+ 
+    font-family: Verdana;
+    position: fixed;
+    left: 10px;
+    font-size: small;
+    font-weight: bolder;
+    color:rgb(29, 131, 131);
+
+}
+h1{
+    font-family: customfont;
+    font-size: 56px;
+    background: -webkit-linear-gradient(#eeeeeebc, teal, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+#apple{
+    width:280px;
+    padding-left: 2%;
+    transition: transform .2s;
+    margin: 0 auto;
+    opacity: 1;
+}
+#apple:hover{
+    transform: scale(1.25);
+    cursor: -webkit-pointer;
+    cursor: pointer;
+}
+
+#android{
+    height: 300px;
+    width:330px;
+    padding-left: 2.5%;
+    transition: transform .2s;
+    margin: 0 auto;
+    opacity: 1;
+}
+#android:hover{
+    transform: scale(1.3);
+    cursor: -webkit-pointer;
+    cursor: pointer;
+}
+
+
+#microsoft{
+    height: 225px;
+    width:213px;
+    padding-right: 10%;
+    padding-left: 7%;
+    transition: transform .2s;
+    margin: 0 auto;
+    opacity: 1;
+}
+#microsoft:hover{
+    transform: scale(1.25);
+    cursor: -webkit-pointer;
+    cursor: pointer;
+}
+
+#meta{
+    height: 210px;
+    width:300px;
+    transition: transform .2s;
+    margin: 0 auto;
+    opacity: 1;
+    padding-top: 2%;
+    padding-right: 2%;
+}
+#meta:hover{
+    transform: scale(1.25);
+    cursor: -webkit-pointer;
+    cursor: pointer;
+}
+
+#playstation{
+    height: 250px;
+    width:260px;
+    padding-right: 14%;
+    transition: transform .2s;
+    margin: 0 auto;
+    opacity: 1;
+    padding-left: 7%;
+}
+#playstation:hover{
+    transform: scale(1.25);
+    cursor: -webkit-pointer;
+    cursor: pointer;
+}
+
+#nintendo{
+    height: 250px;
+    width:243px;
+    transition: transform .2s;
+    margin: 0 auto;
+    opacity: 1;
+    padding-right: 6%;
+}
+#nintendo:hover{
+    transform: scale(1.25);
+    cursor: -webkit-pointer;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

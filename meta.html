@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>Meta Tips</title>
+        <link rel="stylesheet" type="text/css" href="meta.css" />
+        <link rel="icon" type="image/x-icon" href="favicon-16x16.png">
+    </head>
+    <style>
+        @font-face {
+         font-family: customfont;
+         src:url("myfont.otf");
+        }
+    </style>
+
+    <body>
+        <h1>
+            <a href="index.html" style="text-decoration:none;"><p style="color:rgb(133, 57, 190); font-size: x-large;">&larr; Go back</p></a>
+        </h1>
+        <br><br><br>
+        <div id="mascot">
+            <img src="meta_mascot.png" alt="Mascot">
+        </div>
+        <script>
+            !function(w, d, s, ...args){
+              var div = d.createElement('div');
+              div.id = 'aichatbot';
+              d.body.appendChild(div);
+              w.chatbotConfig = args;
+            
+              var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s);
+              j.defer = true;
+              j.type = 'module';
+              j.src = 'https://aichatbot.sendbird.com/index.js';
+              f.parentNode.insertBefore(j, f);
+            }(window, document, 'script', '0B27567D-7A5E-4336-87E4-FA3A01805F72', 'onboarding_bot');
+            </script>
+        </div>
+    </body>
+</html>
